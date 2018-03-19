@@ -17,6 +17,11 @@
 		CB5913652058BB0B00D25FE3 /* PurchaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5913642058BB0B00D25FE3 /* PurchaseProjectTests.m */; };
 		CB5913702058BB0B00D25FE3 /* PurchaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59136F2058BB0B00D25FE3 /* PurchaseProjectUITests.m */; };
 		CB5913812058BC0A00D25FE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59137F2058BC0900D25FE3 /* AppDelegate.m */; };
+		CBBA2082205F9064001F3FDE /* JCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA2081205F9064001F3FDE /* JCTabBarViewController.m */; };
+		CBBA2085205F921A001F3FDE /* JCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA2084205F921A001F3FDE /* JCNavigationController.m */; };
+		CBBA208A205F9313001F3FDE /* JCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA2089205F9313001F3FDE /* JCHomeViewController.m */; };
+		CBBA208F205F9479001F3FDE /* JCMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA208E205F9479001F3FDE /* JCMineViewController.m */; };
+		CBBA2094205F95E7001F3FDE /* JCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA2093205F95E7001F3FDE /* JCLoginViewController.m */; };
 		E847C2AA549D7BF9960777D6 /* libPods-PurchaseProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86235AE292DC6863898C219A /* libPods-PurchaseProjectUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +67,16 @@
 		CB5913712058BB0B00D25FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB59137E2058BC0900D25FE3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB59137F2058BC0900D25FE3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBBA2080205F9064001F3FDE /* JCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTabBarViewController.h; sourceTree = "<group>"; };
+		CBBA2081205F9064001F3FDE /* JCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTabBarViewController.m; sourceTree = "<group>"; };
+		CBBA2083205F921A001F3FDE /* JCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCNavigationController.h; sourceTree = "<group>"; };
+		CBBA2084205F921A001F3FDE /* JCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCNavigationController.m; sourceTree = "<group>"; };
+		CBBA2088205F9313001F3FDE /* JCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCHomeViewController.h; sourceTree = "<group>"; };
+		CBBA2089205F9313001F3FDE /* JCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCHomeViewController.m; sourceTree = "<group>"; };
+		CBBA208D205F9479001F3FDE /* JCMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCMineViewController.h; sourceTree = "<group>"; };
+		CBBA208E205F9479001F3FDE /* JCMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCMineViewController.m; sourceTree = "<group>"; };
+		CBBA2092205F95E7001F3FDE /* JCLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCLoginViewController.h; sourceTree = "<group>"; };
+		CBBA2093205F95E7001F3FDE /* JCLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCLoginViewController.m; sourceTree = "<group>"; };
 		D5D7E549A2D2D7629F4420FE /* Pods-PurchaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaseProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PurchaseProjectUITests/Pods-PurchaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +143,7 @@
 		CB59134A2058BB0B00D25FE3 /* PurchaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				CBBA207D205F8FD4001F3FDE /* Project */,
 				CB59137D2058BC0900D25FE3 /* Resource */,
 				CB59134E2058BB0B00D25FE3 /* ViewController.h */,
 				CB59134F2058BB0B00D25FE3 /* ViewController.m */,
@@ -165,6 +181,87 @@
 				CB59137F2058BC0900D25FE3 /* AppDelegate.m */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		CBBA207D205F8FD4001F3FDE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA2090205F95D3001F3FDE /* Login */,
+				CBBA208B205F9464001F3FDE /* Mine */,
+				CBBA2086205F92FA001F3FDE /* Home */,
+				CBBA207E205F8FD4001F3FDE /* Main */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		CBBA207E205F8FD4001F3FDE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA207F205F9014001F3FDE /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CBBA207F205F9014001F3FDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA2080205F9064001F3FDE /* JCTabBarViewController.h */,
+				CBBA2081205F9064001F3FDE /* JCTabBarViewController.m */,
+				CBBA2083205F921A001F3FDE /* JCNavigationController.h */,
+				CBBA2084205F921A001F3FDE /* JCNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBBA2086205F92FA001F3FDE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA2087205F92FA001F3FDE /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CBBA2087205F92FA001F3FDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA2088205F9313001F3FDE /* JCHomeViewController.h */,
+				CBBA2089205F9313001F3FDE /* JCHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBBA208B205F9464001F3FDE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA208C205F9464001F3FDE /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		CBBA208C205F9464001F3FDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA208D205F9479001F3FDE /* JCMineViewController.h */,
+				CBBA208E205F9479001F3FDE /* JCMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBBA2090205F95D3001F3FDE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA2091205F95D3001F3FDE /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CBBA2091205F95D3001F3FDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA2092205F95E7001F3FDE /* JCLoginViewController.h */,
+				CBBA2093205F95E7001F3FDE /* JCLoginViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		EBEFA23F6EA4BB73EF693A0D /* Pods */ = {
@@ -251,6 +348,7 @@
 		CB5913402058BB0B00D25FE3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JC;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "王云";
 				TargetAttributes = {
@@ -469,9 +567,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBA208F205F9479001F3FDE /* JCMineViewController.m in Sources */,
 				CB5913812058BC0A00D25FE3 /* AppDelegate.m in Sources */,
 				CB5913502058BB0B00D25FE3 /* ViewController.m in Sources */,
 				CB59135B2058BB0B00D25FE3 /* main.m in Sources */,
+				CBBA2085205F921A001F3FDE /* JCNavigationController.m in Sources */,
+				CBBA208A205F9313001F3FDE /* JCHomeViewController.m in Sources */,
+				CBBA2082205F9064001F3FDE /* JCTabBarViewController.m in Sources */,
+				CBBA2094205F95E7001F3FDE /* JCLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
