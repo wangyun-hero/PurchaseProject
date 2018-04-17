@@ -17,6 +17,13 @@
 		CB5913652058BB0B00D25FE3 /* PurchaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5913642058BB0B00D25FE3 /* PurchaseProjectTests.m */; };
 		CB5913702058BB0B00D25FE3 /* PurchaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59136F2058BB0B00D25FE3 /* PurchaseProjectUITests.m */; };
 		CB5913812058BC0A00D25FE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB59137F2058BC0900D25FE3 /* AppDelegate.m */; };
+		CB89FA742085E7FF0093745B /* CommUtls.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89FA642085E7FF0093745B /* CommUtls.m */; };
+		CB89FA752085E7FF0093745B /* UIBarButtonItem+HMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89FA672085E7FF0093745B /* UIBarButtonItem+HMCategory.m */; };
+		CB89FA772085E7FF0093745B /* UIView+HMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89FA6A2085E7FF0093745B /* UIView+HMCategory.m */; };
+		CB89FA782085E7FF0093745B /* NSString+Valider.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89FA6F2085E7FF0093745B /* NSString+Valider.m */; };
+		CB89FA792085E7FF0093745B /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89FA712085E7FF0093745B /* UIColor+Addition.m */; };
+		CB89FA7A2085E7FF0093745B /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89FA722085E7FF0093745B /* UIImage+Rotate.m */; };
+		CB89FA7B2085E7FF0093745B /* NSString+HMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89FA732085E7FF0093745B /* NSString+HMCategory.m */; };
 		CBBA2082205F9064001F3FDE /* JCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA2081205F9064001F3FDE /* JCTabBarViewController.m */; };
 		CBBA2085205F921A001F3FDE /* JCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA2084205F921A001F3FDE /* JCNavigationController.m */; };
 		CBBA208A205F9313001F3FDE /* JCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA2089205F9313001F3FDE /* JCHomeViewController.m */; };
@@ -68,6 +75,20 @@
 		CB5913712058BB0B00D25FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB59137E2058BC0900D25FE3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB59137F2058BC0900D25FE3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB89FA632085E7FF0093745B /* CommUtls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommUtls.h; sourceTree = "<group>"; };
+		CB89FA642085E7FF0093745B /* CommUtls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommUtls.m; sourceTree = "<group>"; };
+		CB89FA662085E7FF0093745B /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		CB89FA672085E7FF0093745B /* UIBarButtonItem+HMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HMCategory.m"; sourceTree = "<group>"; };
+		CB89FA692085E7FF0093745B /* NSString+Valider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Valider.h"; sourceTree = "<group>"; };
+		CB89FA6A2085E7FF0093745B /* UIView+HMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMCategory.m"; sourceTree = "<group>"; };
+		CB89FA6B2085E7FF0093745B /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		CB89FA6C2085E7FF0093745B /* NSString+HMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMCategory.h"; sourceTree = "<group>"; };
+		CB89FA6D2085E7FF0093745B /* UIView+HMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMCategory.h"; sourceTree = "<group>"; };
+		CB89FA6F2085E7FF0093745B /* NSString+Valider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Valider.m"; sourceTree = "<group>"; };
+		CB89FA702085E7FF0093745B /* UIBarButtonItem+HMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HMCategory.h"; sourceTree = "<group>"; };
+		CB89FA712085E7FF0093745B /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		CB89FA722085E7FF0093745B /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		CB89FA732085E7FF0093745B /* NSString+HMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMCategory.m"; sourceTree = "<group>"; };
 		CBBA2080205F9064001F3FDE /* JCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTabBarViewController.h; sourceTree = "<group>"; };
 		CBBA2081205F9064001F3FDE /* JCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTabBarViewController.m; sourceTree = "<group>"; };
 		CBBA2083205F921A001F3FDE /* JCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCNavigationController.h; sourceTree = "<group>"; };
@@ -129,6 +150,8 @@
 		CB46EC67207C95EE00E8D867 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CB89FA652085E7FF0093745B /* Categorys */,
+				CB89FA622085E7FF0093745B /* Method */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -218,6 +241,34 @@
 				CB46EC65207C958600E8D867 /* Purchase.pch */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		CB89FA622085E7FF0093745B /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				CB89FA632085E7FF0093745B /* CommUtls.h */,
+				CB89FA642085E7FF0093745B /* CommUtls.m */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		CB89FA652085E7FF0093745B /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				CB89FA662085E7FF0093745B /* UIColor+Addition.h */,
+				CB89FA672085E7FF0093745B /* UIBarButtonItem+HMCategory.m */,
+				CB89FA692085E7FF0093745B /* NSString+Valider.h */,
+				CB89FA6A2085E7FF0093745B /* UIView+HMCategory.m */,
+				CB89FA6B2085E7FF0093745B /* UIImage+Rotate.h */,
+				CB89FA6C2085E7FF0093745B /* NSString+HMCategory.h */,
+				CB89FA6D2085E7FF0093745B /* UIView+HMCategory.h */,
+				CB89FA6F2085E7FF0093745B /* NSString+Valider.m */,
+				CB89FA702085E7FF0093745B /* UIBarButtonItem+HMCategory.h */,
+				CB89FA712085E7FF0093745B /* UIColor+Addition.m */,
+				CB89FA722085E7FF0093745B /* UIImage+Rotate.m */,
+				CB89FA732085E7FF0093745B /* NSString+HMCategory.m */,
+			);
+			path = Categorys;
 			sourceTree = "<group>";
 		};
 		CBBA207D205F8FD4001F3FDE /* Project */ = {
@@ -593,9 +644,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PurchaseProject/Pods-PurchaseProject-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -609,14 +664,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB89FA772085E7FF0093745B /* UIView+HMCategory.m in Sources */,
 				CBBA208F205F9479001F3FDE /* JCMineViewController.m in Sources */,
 				CB5913812058BC0A00D25FE3 /* AppDelegate.m in Sources */,
+				CB89FA782085E7FF0093745B /* NSString+Valider.m in Sources */,
 				CB5913502058BB0B00D25FE3 /* ViewController.m in Sources */,
+				CB89FA7B2085E7FF0093745B /* NSString+HMCategory.m in Sources */,
 				CB59135B2058BB0B00D25FE3 /* main.m in Sources */,
 				CBBA2085205F921A001F3FDE /* JCNavigationController.m in Sources */,
+				CB89FA7A2085E7FF0093745B /* UIImage+Rotate.m in Sources */,
+				CB89FA752085E7FF0093745B /* UIBarButtonItem+HMCategory.m in Sources */,
 				CBBA208A205F9313001F3FDE /* JCHomeViewController.m in Sources */,
 				CBBA2082205F9064001F3FDE /* JCTabBarViewController.m in Sources */,
+				CB89FA742085E7FF0093745B /* CommUtls.m in Sources */,
 				CBBA2094205F95E7001F3FDE /* JCLoginViewController.m in Sources */,
+				CB89FA792085E7FF0093745B /* UIColor+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,6 +5,13 @@ target 'PurchaseProject' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 pod 'Masonry'
+pod 'YYModel'
+pod 'AFNetworking'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'MJRefresh'
+pod 'IQKeyboardManager'
+
   # Pods for PurchaseProject
 
   target 'PurchaseProjectTests' do
