@@ -256,17 +256,17 @@
 			isa = PBXGroup;
 			children = (
 				CB89FA662085E7FF0093745B /* UIColor+Addition.h */,
+				CB89FA712085E7FF0093745B /* UIColor+Addition.m */,
+				CB89FA702085E7FF0093745B /* UIBarButtonItem+HMCategory.h */,
 				CB89FA672085E7FF0093745B /* UIBarButtonItem+HMCategory.m */,
 				CB89FA692085E7FF0093745B /* NSString+Valider.h */,
-				CB89FA6A2085E7FF0093745B /* UIView+HMCategory.m */,
-				CB89FA6B2085E7FF0093745B /* UIImage+Rotate.h */,
-				CB89FA6C2085E7FF0093745B /* NSString+HMCategory.h */,
-				CB89FA6D2085E7FF0093745B /* UIView+HMCategory.h */,
 				CB89FA6F2085E7FF0093745B /* NSString+Valider.m */,
-				CB89FA702085E7FF0093745B /* UIBarButtonItem+HMCategory.h */,
-				CB89FA712085E7FF0093745B /* UIColor+Addition.m */,
+				CB89FA6B2085E7FF0093745B /* UIImage+Rotate.h */,
 				CB89FA722085E7FF0093745B /* UIImage+Rotate.m */,
+				CB89FA6C2085E7FF0093745B /* NSString+HMCategory.h */,
 				CB89FA732085E7FF0093745B /* NSString+HMCategory.m */,
+				CB89FA6D2085E7FF0093745B /* UIView+HMCategory.h */,
+				CB89FA6A2085E7FF0093745B /* UIView+HMCategory.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
