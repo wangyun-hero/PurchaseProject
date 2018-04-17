@@ -51,6 +51,7 @@
 		9101E823F87E17BFA01B4AC8 /* Pods-PurchaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PurchaseProjectTests/Pods-PurchaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6769B6ED0F947464990AEA0 /* libPods-PurchaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PurchaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68CCE8213D0B32D6862019D /* Pods-PurchaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurchaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PurchaseProject/Pods-PurchaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		CB46EC65207C958600E8D867 /* Purchase.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Purchase.pch; sourceTree = "<group>"; };
 		CB5913482058BB0B00D25FE3 /* PurchaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurchaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB59134E2058BB0B00D25FE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CB59134F2058BB0B00D25FE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -118,6 +119,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CB46EC66207C95ED00E8D867 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		CB46EC67207C95EE00E8D867 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CB46EC68207C95EE00E8D867 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CB46EC69207C95EE00E8D867 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		CB46EC6A207C95EE00E8D867 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		CB59133F2058BB0B00D25FE3 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +215,7 @@
 			children = (
 				CB59137E2058BC0900D25FE3 /* AppDelegate.h */,
 				CB59137F2058BC0900D25FE3 /* AppDelegate.m */,
+				CB46EC65207C958600E8D867 /* Purchase.pch */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -186,6 +223,11 @@
 		CBBA207D205F8FD4001F3FDE /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				CB46EC68207C95EE00E8D867 /* Base */,
+				CB46EC67207C95EE00E8D867 /* Category */,
+				CB46EC66207C95ED00E8D867 /* Library */,
+				CB46EC69207C95EE00E8D867 /* Macro */,
+				CB46EC6A207C95EE00E8D867 /* Network */,
 				CBBA2090205F95D3001F3FDE /* Login */,
 				CBBA208B205F9464001F3FDE /* Mine */,
 				CBBA2086205F92FA001F3FDE /* Home */,
